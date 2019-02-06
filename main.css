@@ -1,0 +1,82 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    background-color: black;
+    cursor: none;
+
+}
+.otsikko{
+    text-align: center;
+    font-size: 8rem;
+    color: white;
+    position: absolute;
+}
+
+.eka{
+    height: 100vh;
+    background-color: black;
+}
+.loop{
+   height: 100%;
+  width: 100%;
+    margin: auto;
+}
+.toka{
+    height: 100vh;
+}
+.height{
+    height: 6rem;
+}
+.kolmas{
+    height: 100vh;
+}
+.kuva{
+    height:100%;
+    width: 100%;
+    margin: auto;
+}
+header {
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 2px 2px lightgray;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+
+.opit {
+
+    flex-direction: row;
+    /* Below sets up your display method: flex-start|flex-end|space-between|space-around */
+    justify-content: flex-start;
+    /* Below removes bullets and cleans white-space */
+    list-style: none;
+    padding: 0;
+    /* Bonus: forces no word-wrap */
+    white-space: nowrap;
+    display:table;
+    margin:0 auto;
+
+}
+
+li {
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+ul {
+
+}
